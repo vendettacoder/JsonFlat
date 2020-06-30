@@ -1,4 +1,4 @@
-#JsonFlat
+# JsonFlat
 
 A command line utility written in python that flattens a json object
 
@@ -35,7 +35,7 @@ String documentation isn't maintainable in the long term and can eventually beco
 where the scalability is limited by the maximum recursion stack, which is 999 in case of python
 
 - *What I would have done differently for production code?*    
--- Extract json parsing functionality and parsing command line arguments into a utils module of its own to enable re-use
--- JsonFlattener would implement an Interface to enable easy swapping of methods (say using DFS)  
+-- Extract json parsing functionality and parsing command line arguments into a utils module of its own to enable re-use   
+-- JsonFlattener would implement an Interface to enable easy swapping of methods (say using DFS)     
 -- Improved unit test coverage for main.py
  
